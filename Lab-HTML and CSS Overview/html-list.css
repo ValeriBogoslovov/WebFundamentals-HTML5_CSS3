@@ -1,0 +1,11 @@
+ol {
+    counter-reset: section;
+}
+ul {
+    counter-reset: section;
+}
+span::before {
+    counter-increment: section;
+    content: " "counters(section,".") " ";
+}
+   

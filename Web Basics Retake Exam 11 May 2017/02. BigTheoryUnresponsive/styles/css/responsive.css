@@ -1,0 +1,84 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,600");
+
+@media screen and (max-width: 980px){
+    nav#nav a{
+        display: none;
+    }
+    #header a.navPanelToggle{
+        display: inline-block;
+    }
+    section.wrapper{
+        padding:0;
+    }
+    .flex.flex-3 article:before{
+        border:0;
+    }
+    .flex{
+        flex-direction:column;
+    }
+    .flex.flex-3 article{
+        width:100%;
+        border-bottom: 1px solid #9d9d9d;
+        padding:30px 0;
+    }
+    .flex.flex-3 article:nth-child(3){
+        border:0;
+    }
+    section.wrapper header h2{
+        margin-top:5%;
+    }
+    .flex.flex-4{
+        flex-direction:row;
+        justify-content: space-between;
+    }
+    .flex.flex-4 .box{
+        width:48%;
+    }
+    .flex.flex-2 article{
+        width:100%;
+        padding-bottom:30px;
+    }
+    div.inner div.flex{
+        flex-direction:row;
+    }
+}
+
+@media screen and (max-width: 760px){
+    #banner h1{
+        font-size:2.5em;
+    }
+    #footer>div.inner>div.flex{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #footer .inner{
+        padding-top: 0;
+        border:0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .flex.flex-3 article{
+        text-align: center;
+    }
+    button.special, .button.special{
+        width:100%;
+    }
+    div.inner div.flex{
+        flex-direction:column;
+    }
+    .flex.flex-4 .box{
+        width:100%;
+    }
+    section.wrapper header, article.wrapper header{
+        margin-bottom:0;
+    }
+    .flex.flex-2 article{
+        text-align: center;
+    }
+    #footer .inner{
+        border-top:1px solid #adadad;
+        padding-top:20px;
+    }
+}
