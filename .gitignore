@@ -13,6 +13,20 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+*/.idea
+.idea
+*/.jpg
+*/.png
+*/.txt
+*.jpg
+*.txt
+*.png
+*.svg
+*.ttf
+*.eot
+*.woff
+*.woff2
+*.otf
 
 # Windows shortcuts
 *.lnk
